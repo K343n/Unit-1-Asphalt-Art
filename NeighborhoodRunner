@@ -1,0 +1,20 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+//making our Painter
+HeartPainter chloe = new HeartPainter();
+Background c = new Background();
+// paint the background
+c.paintBackgroundLine("white", 16);
+c.paintBackgroundStripe("navy", 16);
+// paint the leftside of the heart
+chloe.paintLeftSideHeart("pink");
+//paint the right side of the heart
+chloe.paintRightSideHeart("pink");
+//paint the left side of the heart
+chloe.paintBottomHeart("pink");
+    
+  }
+}
